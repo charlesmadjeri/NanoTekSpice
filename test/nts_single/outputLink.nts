@@ -1,0 +1,10 @@
+#clock test
+
+.chipsets:
+clock  Clock
+output IntermediaryOutput
+output FinalOutput
+
+.links:
+Clock:1 IntermediaryOutput:1
+IntermediaryOutput:1 FinalOutput:1

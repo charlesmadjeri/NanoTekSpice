@@ -1,0 +1,6 @@
+# Basic wire, direct link input to output.
+#
+# INPUT ---> OUTPUT
+
+.links:
+in:1 out:1
