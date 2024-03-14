@@ -1,3 +1,4 @@
+#
 SRC		:=	$(shell find ./src -type f -name '*.cpp')
 TEST_SRC := $(shell find -type f -name '*.cpp' ! -name 'main.cpp')
 
